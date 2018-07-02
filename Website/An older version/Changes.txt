@@ -1,0 +1,3 @@
+removed curl to work with 000webhost(in vain)
+Merged default.php with relay.php. functionality still intact.
+put the old python code in comments

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.shahzada.raceorganizer.Crew"
+    tools:showIn="@layout/activity_crew"
+    android:background="#7C83AE">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RelativeLayout
+            android:id="@+id/mainFrame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTintMode="src_over"
+
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:id="@+id/req"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:text="Required Info:"
+                android:textSize="24dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:textColor="#ffffff" />
+            <TextView
+                android:id="@+id/boa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Boat Type:"
+                android:layout_below="@+id/req"
+                android:layout_marginTop="20dp"
+                android:textColor="#ffffff" />
+            <RadioGroup
+                android:id = "@+id/boatGroupA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_toRightOf="@+id/boa"
+                android:layout_below="@+id/boa"
+                android:layout_marginLeft="40dp">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/dingyA"
+                    android:text="Dinghy"
+                    android:checked="false"
+                    android:textColor="#ffffff"
+                    android:buttonTint="#D3A56B" />
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/yachtA"
+                    android:text="Yacht"
+                    android:checked="false"
+                    android:textColor="#ffffff"
+                    android:buttonTint="#D3A56B" />
+            </RadioGroup>
+            <TextView
+                android:id="@+id/yci"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="yacht Club Initials:"
+                android:layout_below="@+id/boa"
+                android:layout_marginTop="60dp"
+                android:textColor="#ffffff" />
+            <Spinner
+                android:id="@+id/yachtClub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/yci"
+                android:layout_below="@+id/yci"
+                android:layout_marginLeft="30dp"
+                android:background="#D3A56B"
+                android:dropDownSelector="#9c723d" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:id="@+id/yachtClubAlt"
+                android:layout_alignTop="@+id/yachtClub"
+                android:layout_alignStart="@+id/boatName"
+                android:layout_alignEnd="@+id/crewSpinner"
+                android:visibility="invisible"
+                android:textColor="#ffffff"
+                android:backgroundTint="#D3A56B" />
+
+            <TextView
+                android:id="@+id/ctn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "Crew Needed:"
+                android:layout_below="@+id/yci"
+                android:layout_marginTop="60dp"
+                android:textColor="#ffffff" />
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/crewSpinner"
+                android:layout_below="@+id/ctn"
+                android:layout_toRightOf="@+id/ctn"
+                android:background="#D3A56B"
+                android:layout_alignLeft="@+id/yachtClub"
+                android:dropDownSelector="#9c723d">
+            </Spinner>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/crewAlt"
+                android:layout_alignTop="@+id/crewSpinner"
+                android:layout_alignEnd="@+id/crewSpinner"
+                android:layout_alignStart="@+id/yachtClubAlt"
+                android:visibility="invisible"
+                android:textColor="#ffffff"
+                android:backgroundTint="#D3A56B" />
+
+            <TextView
+                android:id="@+id/dl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "Deadline:\n(Click to set):"
+                android:layout_below="@+id/ctn"
+                android:layout_marginTop="60dp"
+                android:textColor="#ffffff" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="31dp"
+                android:layout_gravity="center"
+                android:allowUndo="true"
+                android:background="#ae8047"
+                android:clickable="true"
+                android:textAlignment="center"
+                android:id="@+id/blank"
+                android:layout_alignLeft="@+id/deadline"
+                android:layout_alignTop="@+id/deadline"
+                android:layout_alignBottom="@+id/deadline"
+                android:layout_alignRight="@+id/deadline"
+                android:layout_marginLeft="-5dp"
+                android:layout_margin="-5dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginRight="-5dp"
+                android:layout_marginBottom="-5dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="23dp"
+                android:id="@+id/deadline"
+                android:layout_gravity="center"
+                android:allowUndo="true"
+                android:background="#D3A56B"
+                android:textAlignment="center"
+                android:textIsSelectable="true"
+                android:backgroundTintMode="multiply"
+                android:clickable="true"
+                android:text="Feb 1, 11:36AM\nApr 16, 23:15PM"
+                android:textColor="#101849"
+                android:layout_toRightOf="@+id/dl"
+                android:layout_below="@+id/dl"
+                android:layout_marginLeft="60dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(Default)"
+                android:id="@+id/defaultVal"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_below="@+id/blank"
+                android:layout_alignLeft="@+id/blank"
+                android:layout_marginLeft="40dp"
+                android:textColor="#ffffff"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:id="@+id/bnn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "Boat Name/Number:"
+                android:layout_marginTop="60dp"
+                android:layout_below="@+id/deadline"
+                android:textColor="#ffffff" />
+            <EditText
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:id="@+id/boatName"
+                android:layout_below="@+id/bnn"
+                android:layout_toRightOf="@+id/bnn"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-20dp"
+                android:textColor="#ffffff"
+                android:backgroundTint="#D3A56B" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Specific Info:"
+                android:id="@+id/spi"
+                android:layout_below="@+id/bnn"
+                android:layout_alignStart="@+id/opt"
+                android:layout_marginTop="60dp"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="(Only if Needed)"
+                android:id="@+id/textView9"
+                android:textSize="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@+id/spi"
+                android:layout_alignStart="@+id/spi"
+                android:textColor="#ffffff" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/specificInfo"
+                android:layout_toEndOf="@+id/opt"
+                android:layout_below="@+id/spi"
+                android:hint="Qualifications, Whitesail,Peanut Allergy etc."
+                android:textColor="#ffffff"
+                android:backgroundTint="#D3A56B"
+                android:textColorHint="#101849" />
+
+            <TextView
+                android:id="@+id/opt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "Contact Info:"
+                android:textSize="24dp"
+                android:layout_gravity="left|center_vertical"
+                android:layout_below="@+id/specificInfo"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="5dp"
+                android:visibility="visible"
+                android:textColor="#ffffff" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="(Not everything\nneeds to be filled)"
+                android:id="@+id/textView7"
+                android:textSize="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@+id/opt"
+                android:layout_alignStart="@+id/opt"
+                android:textColor="#ffffff" />
+            <TextView
+                android:id="@+id/nme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:layout_marginTop="60dp"
+                android:layout_below="@+id/opt"
+                android:textColor="#ffffff" />
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:id="@+id/name"
+                android:layout_below="@+id/nme"
+                android:layout_toRightOf="@+id/nme"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="-20dp"
+                android:textColor="#ffffff"
+                android:backgroundTint="#D3A56B" />
+
+            <TextView
+                android:id="@+id/pno"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text = "Phone Number:"
+                android:layout_marginTop="60dp"
+                android:layout_below="@+id/nme"
+                android:textColor="#ffffff" />
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:id="@+id/phone"
+                android:layout_below="@+id/pno"
+                android:layout_toRightOf="@+id/pno"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="-20dp"
+                android:textColor="#ffffff"
+                android:backgroundTint="#D3A56B" />
+
+            <TextView
+                android:id="@+id/ema"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "Email Address:"
+                android:layout_marginTop="60dp"
+                android:layout_below="@+id/pno"
+                android:textColor="#ffffff" />
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:id="@+id/email"
+                android:layout_below="@+id/ema"
+                android:layout_toRightOf="@+id/ema"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="-20dp"
+                android:textColor="#ffffff"
+                android:backgroundTint="#D3A56B" />
+
+            </RelativeLayout>
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/mainFrame">
+            <Button
+                android:layout_width="9000dp"
+                android:layout_height="120dp"
+                android:text="Next"
+                android:id="@+id/confirm"
+                android:onClick="storeData"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="-5dp"
+                android:layout_alignParentBottom="false"
+                android:textSize="24dp"
+                android:background="#D3A56B"
+                android:textColor="#101849"/>
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ads:adSize="LARGE_BANNER"
+                ads:adUnitId="@string/homeBottom"
+                android:layout_below="@+id/confirm">
+            </com.google.android.gms.ads.AdView>
+            </RelativeLayout>
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

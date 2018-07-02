@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '24.0.0 rc3'
+    defaultConfig {
+        applicationId "com.shahzada.raceorganizer"
+        minSdkVersion 17
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+// http://mvnrepository.com/artifact/com.squareup/android-times-square
+//"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd
+repositories {
+    maven { url 'http://mvnrepository.com/artifact/com.squareup/android-times-square' }
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:design:23.4.0'
+    compile 'com.google.android.gms:play-services-ads:9.0.0'
+    compile group: 'com.squareup', name: 'android-times-square', version: '1.6.4'
+}
+
+apply plugin: 'com.google.gms.google-services'

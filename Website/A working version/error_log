@@ -1,0 +1,368 @@
+[12-May-2017 02:15:05 America/Chicago] PHP Parse error:  syntax error, unexpected 'g' (T_STRING), expecting ',' or ';' in /home4/discoun7/public_html/Verification.php on line 21
+[12-May-2017 02:20:23 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home4/discoun7/public_html/default.php on line 403
+[12-May-2017 02:20:58 America/Chicago] PHP Parse error:  syntax error, unexpected '[' in /home4/discoun7/public_html/default.php on line 403
+[12-May-2017 02:29:11 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:29:11 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:29:11 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:29:11 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:29:11 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:29:11 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:33:33 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:33:33 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:33:33 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 13
+[12-May-2017 02:33:33 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:33:33 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:33:33 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:33:33 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:33:41 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:33:41 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:33:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 13
+[12-May-2017 02:33:41 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:33:41 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:33:41 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:33:41 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:34:06 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:34:06 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:34:06 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:34:06 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:34:06 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:34:06 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:34:19 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:34:19 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:34:19 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 13
+[12-May-2017 02:34:19 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:34:19 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:34:20 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:34:20 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:35:19 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:35:19 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:35:19 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 13
+[12-May-2017 02:35:19 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:35:19 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:35:19 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:35:19 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:38:28 America/Chicago] PHP Parse error:  syntax error, unexpected '==' (T_IS_EQUAL), expecting ',' or ')' in /home4/discoun7/public_html/index.php on line 398
+[12-May-2017 02:53:10 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:53:10 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:53:10 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 15
+[12-May-2017 02:53:10 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:53:10 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:53:11 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:53:11 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 02:58:10 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 15
+[12-May-2017 02:58:23 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 15
+[12-May-2017 02:58:52 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 9
+[12-May-2017 02:58:52 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 13
+[12-May-2017 03:04:47 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 11
+[12-May-2017 03:04:47 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 13
+[12-May-2017 03:06:49 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 11
+[12-May-2017 03:06:49 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 13
+[12-May-2017 03:07:01 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 9
+[12-May-2017 03:07:01 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 13
+[12-May-2017 03:08:11 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 11
+[12-May-2017 03:09:09 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:413) in /home4/discoun7/public_html/Verification.php on line 11
+[12-May-2017 03:11:38 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 9
+[12-May-2017 03:13:52 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 11
+[12-May-2017 03:14:11 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 11
+[12-May-2017 03:14:17 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 9
+[12-May-2017 03:15:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 405
+[12-May-2017 03:15:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 11
+[12-May-2017 03:16:02 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 405
+[12-May-2017 03:16:12 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 403
+[12-May-2017 03:20:58 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 11
+[12-May-2017 03:21:19 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 9
+[12-May-2017 03:21:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 11
+[12-May-2017 03:22:03 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 9
+[12-May-2017 03:25:32 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:14) in /home4/discoun7/public_html/index.php on line 15
+[12-May-2017 03:25:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:10) in /home4/discoun7/public_html/index.php on line 11
+[12-May-2017 03:33:22 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 13
+[12-May-2017 03:33:37 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 13
+[12-May-2017 03:34:36 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 03:34:36 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 03:34:36 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 13
+[12-May-2017 03:34:37 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 03:34:37 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 03:34:37 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 03:34:37 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 03:35:07 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 03:35:07 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 03:35:07 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 13
+[12-May-2017 03:35:07 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 03:35:07 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 03:35:07 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 03:35:07 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 03:43:24 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 03:43:24 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 03:43:24 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/Verification.php on line 13
+[12-May-2017 03:43:24 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 03:43:24 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 03:43:24 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 03:43:24 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:395) in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 03:47:03 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:47:03 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:47:04 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:47:04 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:47:04 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:47:04 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:47:04 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:47:04 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:47:05 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:47:05 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:47:19 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:47:19 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:47:19 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:47:19 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:47:19 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:47:19 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:47:40 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:47:40 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:47:40 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:47:40 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:47:41 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:47:41 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:48:33 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:48:33 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:48:34 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:48:34 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:48:34 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:48:34 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:48:50 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:48:50 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:48:50 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:48:50 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:48:51 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:48:51 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:410) in /home4/discoun7/public_html/index.php on line 412
+[12-May-2017 03:50:07 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:411) in /home4/discoun7/public_html/index.php on line 413
+[12-May-2017 03:50:07 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:411) in /home4/discoun7/public_html/index.php on line 413
+[12-May-2017 03:50:07 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:411) in /home4/discoun7/public_html/index.php on line 413
+[12-May-2017 03:50:07 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:411) in /home4/discoun7/public_html/index.php on line 413
+[12-May-2017 03:50:08 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:411) in /home4/discoun7/public_html/index.php on line 413
+[12-May-2017 03:50:08 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:411) in /home4/discoun7/public_html/index.php on line 413
+[12-May-2017 03:50:19 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:411) in /home4/discoun7/public_html/index.php on line 413
+[12-May-2017 03:50:19 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:411) in /home4/discoun7/public_html/index.php on line 413
+[12-May-2017 03:50:19 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:411) in /home4/discoun7/public_html/index.php on line 413
+[12-May-2017 03:50:19 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:411) in /home4/discoun7/public_html/index.php on line 413
+[12-May-2017 03:50:20 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:411) in /home4/discoun7/public_html/index.php on line 413
+[12-May-2017 03:50:20 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:411) in /home4/discoun7/public_html/index.php on line 413
+[12-May-2017 03:52:12 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:411) in /home4/discoun7/public_html/index.php on line 413
+[12-May-2017 03:52:12 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:411) in /home4/discoun7/public_html/index.php on line 413
+[12-May-2017 03:52:12 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:411) in /home4/discoun7/public_html/index.php on line 413
+[12-May-2017 03:52:12 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:411) in /home4/discoun7/public_html/index.php on line 413
+[12-May-2017 03:52:13 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:411) in /home4/discoun7/public_html/index.php on line 413
+[12-May-2017 03:52:13 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:411) in /home4/discoun7/public_html/index.php on line 413
+[12-May-2017 03:53:35 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:411) in /home4/discoun7/public_html/index.php on line 413
+[12-May-2017 03:53:35 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:411) in /home4/discoun7/public_html/index.php on line 413
+[12-May-2017 03:53:35 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:411) in /home4/discoun7/public_html/index.php on line 413
+[12-May-2017 03:53:35 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:411) in /home4/discoun7/public_html/index.php on line 413
+[12-May-2017 03:53:36 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:411) in /home4/discoun7/public_html/index.php on line 413
+[12-May-2017 03:53:36 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:411) in /home4/discoun7/public_html/index.php on line 413
+[12-May-2017 03:54:54 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:359) in /home4/discoun7/public_html/index.php on line 361
+[12-May-2017 03:54:54 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:359) in /home4/discoun7/public_html/index.php on line 361
+[12-May-2017 03:55:08 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:359) in /home4/discoun7/public_html/index.php on line 361
+[12-May-2017 03:55:08 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:359) in /home4/discoun7/public_html/index.php on line 361
+[12-May-2017 03:56:24 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:409) in /home4/discoun7/public_html/index.php on line 411
+[12-May-2017 03:56:24 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:409) in /home4/discoun7/public_html/index.php on line 411
+[12-May-2017 03:56:24 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:409) in /home4/discoun7/public_html/index.php on line 411
+[12-May-2017 03:56:24 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:409) in /home4/discoun7/public_html/index.php on line 411
+[12-May-2017 03:56:26 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:409) in /home4/discoun7/public_html/index.php on line 411
+[12-May-2017 03:56:26 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:409) in /home4/discoun7/public_html/index.php on line 411
+[12-May-2017 03:58:01 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:394) in /home4/discoun7/public_html/index.php on line 396
+[12-May-2017 03:58:01 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:394) in /home4/discoun7/public_html/index.php on line 396
+[12-May-2017 03:58:01 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:394) in /home4/discoun7/public_html/index.php on line 396
+[12-May-2017 03:58:01 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:394) in /home4/discoun7/public_html/index.php on line 396
+[12-May-2017 03:58:01 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:394) in /home4/discoun7/public_html/index.php on line 396
+[12-May-2017 03:58:01 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:394) in /home4/discoun7/public_html/index.php on line 396
+[12-May-2017 03:58:17 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:394) in /home4/discoun7/public_html/index.php on line 396
+[12-May-2017 03:58:17 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:394) in /home4/discoun7/public_html/index.php on line 396
+[12-May-2017 03:58:17 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:394) in /home4/discoun7/public_html/index.php on line 396
+[12-May-2017 03:58:17 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:394) in /home4/discoun7/public_html/index.php on line 396
+[12-May-2017 03:58:18 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/discoun7/public_html/index.php:394) in /home4/discoun7/public_html/index.php on line 396
+[12-May-2017 03:58:18 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/discoun7/public_html/index.php:394) in /home4/discoun7/public_html/index.php on line 396
+[12-May-2017 03:59:42 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home4/discoun7/public_html/index.php on line 397
+[12-May-2017 04:58:43 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home4/discoun7/public_html/index.php on line 397
+[14-May-2017 23:24:08 America/Chicago] PHP Parse error:  syntax error, unexpected '"' in /home4/discoun7/public_html/relay.php on line 36
+[14-May-2017 23:24:08 America/Chicago] PHP Notice:  Undefined offset: 12 in /home4/discoun7/public_html/TableCreate.php on line 48
+[14-May-2017 23:24:08 America/Chicago] PHP Notice:  Undefined offset: 13 in /home4/discoun7/public_html/TableCreate.php on line 51
+[14-May-2017 23:24:08 America/Chicago] PHP Notice:  Undefined offset: 14 in /home4/discoun7/public_html/TableCreate.php on line 54
+[14-May-2017 23:24:08 America/Chicago] PHP Notice:  Undefined offset: 15 in /home4/discoun7/public_html/TableCreate.php on line 58
+[14-May-2017 23:24:08 America/Chicago] PHP Notice:  Undefined offset: 16 in /home4/discoun7/public_html/TableCreate.php on line 61
+[14-May-2017 23:24:08 America/Chicago] PHP Notice:  Undefined offset: 17 in /home4/discoun7/public_html/TableCreate.php on line 64
+[14-May-2017 23:24:08 America/Chicago] PHP Notice:  Undefined offset: 18 in /home4/discoun7/public_html/TableCreate.php on line 67
+[14-May-2017 23:24:08 America/Chicago] PHP Notice:  Undefined offset: 19 in /home4/discoun7/public_html/TableCreate.php on line 70
+[14-May-2017 23:25:16 America/Chicago] PHP Parse error:  syntax error, unexpected '$script' (T_VARIABLE) in /home4/discoun7/public_html/relay.php on line 36
+[14-May-2017 23:25:16 America/Chicago] PHP Notice:  Undefined offset: 13 in /home4/discoun7/public_html/TableCreate.php on line 51
+[14-May-2017 23:25:16 America/Chicago] PHP Notice:  Undefined offset: 14 in /home4/discoun7/public_html/TableCreate.php on line 54
+[14-May-2017 23:25:16 America/Chicago] PHP Notice:  Undefined offset: 15 in /home4/discoun7/public_html/TableCreate.php on line 58
+[14-May-2017 23:25:16 America/Chicago] PHP Notice:  Undefined offset: 16 in /home4/discoun7/public_html/TableCreate.php on line 61
+[14-May-2017 23:25:16 America/Chicago] PHP Notice:  Undefined offset: 17 in /home4/discoun7/public_html/TableCreate.php on line 64
+[14-May-2017 23:25:16 America/Chicago] PHP Notice:  Undefined offset: 18 in /home4/discoun7/public_html/TableCreate.php on line 67
+[14-May-2017 23:25:16 America/Chicago] PHP Notice:  Undefined offset: 19 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 00:00:32 America/Chicago] PHP Notice:  Undefined offset: 6 in /home4/discoun7/public_html/TableCreate.php on line 61
+[15-May-2017 00:00:32 America/Chicago] PHP Notice:  Undefined offset: 7 in /home4/discoun7/public_html/TableCreate.php on line 64
+[15-May-2017 00:00:32 America/Chicago] PHP Notice:  Undefined offset: 8 in /home4/discoun7/public_html/TableCreate.php on line 67
+[15-May-2017 00:00:32 America/Chicago] PHP Notice:  Undefined offset: 9 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 00:11:15 America/Chicago] PHP Notice:  Undefined offset: 6 in /home4/discoun7/public_html/TableCreate.php on line 61
+[15-May-2017 00:11:15 America/Chicago] PHP Notice:  Undefined offset: 7 in /home4/discoun7/public_html/TableCreate.php on line 64
+[15-May-2017 00:11:15 America/Chicago] PHP Notice:  Undefined offset: 8 in /home4/discoun7/public_html/TableCreate.php on line 67
+[15-May-2017 00:11:15 America/Chicago] PHP Notice:  Undefined offset: 9 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 00:12:44 America/Chicago] PHP Notice:  Undefined offset: 5 in /home4/discoun7/public_html/TableCreate.php on line 58
+[15-May-2017 00:12:44 America/Chicago] PHP Notice:  Undefined offset: 6 in /home4/discoun7/public_html/TableCreate.php on line 61
+[15-May-2017 00:12:44 America/Chicago] PHP Notice:  Undefined offset: 7 in /home4/discoun7/public_html/TableCreate.php on line 64
+[15-May-2017 00:12:44 America/Chicago] PHP Notice:  Undefined offset: 8 in /home4/discoun7/public_html/TableCreate.php on line 67
+[15-May-2017 00:12:44 America/Chicago] PHP Notice:  Undefined offset: 9 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 00:14:40 America/Chicago] PHP Notice:  Undefined offset: 5 in /home4/discoun7/public_html/TableCreate.php on line 58
+[15-May-2017 00:14:40 America/Chicago] PHP Notice:  Undefined offset: 6 in /home4/discoun7/public_html/TableCreate.php on line 61
+[15-May-2017 00:14:40 America/Chicago] PHP Notice:  Undefined offset: 7 in /home4/discoun7/public_html/TableCreate.php on line 64
+[15-May-2017 00:14:40 America/Chicago] PHP Notice:  Undefined offset: 8 in /home4/discoun7/public_html/TableCreate.php on line 67
+[15-May-2017 00:14:40 America/Chicago] PHP Notice:  Undefined offset: 9 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 00:15:49 America/Chicago] PHP Notice:  Undefined offset: 4 in /home4/discoun7/public_html/TableCreate.php on line 54
+[15-May-2017 00:15:49 America/Chicago] PHP Notice:  Undefined offset: 5 in /home4/discoun7/public_html/TableCreate.php on line 58
+[15-May-2017 00:15:49 America/Chicago] PHP Notice:  Undefined offset: 6 in /home4/discoun7/public_html/TableCreate.php on line 61
+[15-May-2017 00:15:49 America/Chicago] PHP Notice:  Undefined offset: 7 in /home4/discoun7/public_html/TableCreate.php on line 64
+[15-May-2017 00:15:49 America/Chicago] PHP Notice:  Undefined offset: 8 in /home4/discoun7/public_html/TableCreate.php on line 67
+[15-May-2017 00:15:49 America/Chicago] PHP Notice:  Undefined offset: 9 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 00:19:56 America/Chicago] PHP Notice:  Undefined offset: 4 in /home4/discoun7/public_html/TableCreate.php on line 54
+[15-May-2017 00:19:56 America/Chicago] PHP Notice:  Undefined offset: 5 in /home4/discoun7/public_html/TableCreate.php on line 58
+[15-May-2017 00:19:56 America/Chicago] PHP Notice:  Undefined offset: 6 in /home4/discoun7/public_html/TableCreate.php on line 61
+[15-May-2017 00:19:56 America/Chicago] PHP Notice:  Undefined offset: 7 in /home4/discoun7/public_html/TableCreate.php on line 64
+[15-May-2017 00:19:56 America/Chicago] PHP Notice:  Undefined offset: 8 in /home4/discoun7/public_html/TableCreate.php on line 67
+[15-May-2017 00:19:56 America/Chicago] PHP Notice:  Undefined offset: 9 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 00:21:54 America/Chicago] PHP Notice:  Undefined offset: 4 in /home4/discoun7/public_html/TableCreate.php on line 54
+[15-May-2017 00:21:54 America/Chicago] PHP Notice:  Undefined offset: 5 in /home4/discoun7/public_html/TableCreate.php on line 58
+[15-May-2017 00:21:54 America/Chicago] PHP Notice:  Undefined offset: 6 in /home4/discoun7/public_html/TableCreate.php on line 61
+[15-May-2017 00:21:54 America/Chicago] PHP Notice:  Undefined offset: 7 in /home4/discoun7/public_html/TableCreate.php on line 64
+[15-May-2017 00:21:54 America/Chicago] PHP Notice:  Undefined offset: 8 in /home4/discoun7/public_html/TableCreate.php on line 67
+[15-May-2017 00:21:54 America/Chicago] PHP Notice:  Undefined offset: 9 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 00:23:57 America/Chicago] PHP Notice:  Undefined offset: 4 in /home4/discoun7/public_html/TableCreate.php on line 54
+[15-May-2017 00:23:57 America/Chicago] PHP Notice:  Undefined offset: 5 in /home4/discoun7/public_html/TableCreate.php on line 58
+[15-May-2017 00:23:57 America/Chicago] PHP Notice:  Undefined offset: 6 in /home4/discoun7/public_html/TableCreate.php on line 61
+[15-May-2017 00:23:57 America/Chicago] PHP Notice:  Undefined offset: 7 in /home4/discoun7/public_html/TableCreate.php on line 64
+[15-May-2017 00:23:57 America/Chicago] PHP Notice:  Undefined offset: 8 in /home4/discoun7/public_html/TableCreate.php on line 67
+[15-May-2017 00:23:57 America/Chicago] PHP Notice:  Undefined offset: 9 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 00:24:37 America/Chicago] PHP Notice:  Undefined offset: 4 in /home4/discoun7/public_html/TableCreate.php on line 54
+[15-May-2017 00:24:37 America/Chicago] PHP Notice:  Undefined offset: 5 in /home4/discoun7/public_html/TableCreate.php on line 58
+[15-May-2017 00:24:37 America/Chicago] PHP Notice:  Undefined offset: 6 in /home4/discoun7/public_html/TableCreate.php on line 61
+[15-May-2017 00:24:37 America/Chicago] PHP Notice:  Undefined offset: 7 in /home4/discoun7/public_html/TableCreate.php on line 64
+[15-May-2017 00:24:37 America/Chicago] PHP Notice:  Undefined offset: 8 in /home4/discoun7/public_html/TableCreate.php on line 67
+[15-May-2017 00:24:37 America/Chicago] PHP Notice:  Undefined offset: 9 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 00:30:07 America/Chicago] PHP Notice:  Undefined offset: 19 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 17:31:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/relay.php:25) in /home4/discoun7/public_html/relay.php on line 31
+[15-May-2017 18:03:13 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/relay.php:25) in /home4/discoun7/public_html/relay.php on line 31
+[15-May-2017 18:04:52 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/relay.php:25) in /home4/discoun7/public_html/relay.php on line 30
+[15-May-2017 18:05:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/relay.php:25) in /home4/discoun7/public_html/relay.php on line 30
+[15-May-2017 18:06:11 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/relay.php:25) in /home4/discoun7/public_html/relay.php on line 30
+[15-May-2017 18:06:25 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/relay.php:25) in /home4/discoun7/public_html/relay.php on line 30
+[15-May-2017 18:07:51 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/relay.php:25) in /home4/discoun7/public_html/relay.php on line 30
+[15-May-2017 18:08:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/relay.php:25) in /home4/discoun7/public_html/relay.php on line 30
+[15-May-2017 18:09:09 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/relay.php:25) in /home4/discoun7/public_html/relay.php on line 30
+[15-May-2017 18:18:46 America/Chicago] PHP Notice:  Undefined offset: 22 in /home4/discoun7/public_html/TableCreate.php on line 48
+[15-May-2017 18:18:46 America/Chicago] PHP Notice:  Undefined offset: 23 in /home4/discoun7/public_html/TableCreate.php on line 51
+[15-May-2017 18:18:46 America/Chicago] PHP Notice:  Undefined offset: 24 in /home4/discoun7/public_html/TableCreate.php on line 54
+[15-May-2017 18:18:46 America/Chicago] PHP Notice:  Undefined offset: 25 in /home4/discoun7/public_html/TableCreate.php on line 58
+[15-May-2017 18:18:46 America/Chicago] PHP Notice:  Undefined offset: 26 in /home4/discoun7/public_html/TableCreate.php on line 61
+[15-May-2017 18:18:46 America/Chicago] PHP Notice:  Undefined offset: 27 in /home4/discoun7/public_html/TableCreate.php on line 64
+[15-May-2017 18:18:46 America/Chicago] PHP Notice:  Undefined offset: 28 in /home4/discoun7/public_html/TableCreate.php on line 67
+[15-May-2017 18:18:46 America/Chicago] PHP Notice:  Undefined offset: 29 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 18:19:40 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/relay.php:25) in /home4/discoun7/public_html/relay.php on line 30
+[15-May-2017 18:20:23 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/relay.php:25) in /home4/discoun7/public_html/relay.php on line 30
+[15-May-2017 18:20:51 America/Chicago] PHP Notice:  Undefined offset: 22 in /home4/discoun7/public_html/TableCreate.php on line 48
+[15-May-2017 18:20:51 America/Chicago] PHP Notice:  Undefined offset: 23 in /home4/discoun7/public_html/TableCreate.php on line 51
+[15-May-2017 18:20:51 America/Chicago] PHP Notice:  Undefined offset: 24 in /home4/discoun7/public_html/TableCreate.php on line 54
+[15-May-2017 18:20:51 America/Chicago] PHP Notice:  Undefined offset: 25 in /home4/discoun7/public_html/TableCreate.php on line 58
+[15-May-2017 18:20:51 America/Chicago] PHP Notice:  Undefined offset: 26 in /home4/discoun7/public_html/TableCreate.php on line 61
+[15-May-2017 18:20:51 America/Chicago] PHP Notice:  Undefined offset: 27 in /home4/discoun7/public_html/TableCreate.php on line 64
+[15-May-2017 18:20:51 America/Chicago] PHP Notice:  Undefined offset: 28 in /home4/discoun7/public_html/TableCreate.php on line 67
+[15-May-2017 18:20:51 America/Chicago] PHP Notice:  Undefined offset: 29 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 18:24:19 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/relay.php:25) in /home4/discoun7/public_html/relay.php on line 30
+[15-May-2017 18:24:30 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/relay.php:25) in /home4/discoun7/public_html/relay.php on line 30
+[15-May-2017 18:26:35 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/relay.php:23) in /home4/discoun7/public_html/relay.php on line 28
+[15-May-2017 18:26:45 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/relay.php:23) in /home4/discoun7/public_html/relay.php on line 28
+[15-May-2017 18:27:44 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/relay.php:23) in /home4/discoun7/public_html/relay.php on line 28
+[15-May-2017 18:28:33 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/relay.php:23) in /home4/discoun7/public_html/relay.php on line 28
+[15-May-2017 18:28:37 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/relay.php:23) in /home4/discoun7/public_html/relay.php on line 28
+[15-May-2017 18:28:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/relay.php:23) in /home4/discoun7/public_html/relay.php on line 28
+[15-May-2017 18:29:57 America/Chicago] PHP Notice:  Undefined offset: 166 in /home4/discoun7/public_html/TableCreate.php on line 61
+[15-May-2017 18:29:57 America/Chicago] PHP Notice:  Undefined offset: 167 in /home4/discoun7/public_html/TableCreate.php on line 64
+[15-May-2017 18:29:57 America/Chicago] PHP Notice:  Undefined offset: 168 in /home4/discoun7/public_html/TableCreate.php on line 67
+[15-May-2017 18:29:57 America/Chicago] PHP Notice:  Undefined offset: 169 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 18:29:57 America/Chicago] PHP Notice:  Undefined offset: 166 in /home4/discoun7/public_html/TableCreate.php on line 61
+[15-May-2017 18:29:57 America/Chicago] PHP Notice:  Undefined offset: 167 in /home4/discoun7/public_html/TableCreate.php on line 64
+[15-May-2017 18:29:57 America/Chicago] PHP Notice:  Undefined offset: 168 in /home4/discoun7/public_html/TableCreate.php on line 67
+[15-May-2017 18:29:57 America/Chicago] PHP Notice:  Undefined offset: 169 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 18:29:57 America/Chicago] PHP Notice:  Undefined offset: 166 in /home4/discoun7/public_html/TableCreate.php on line 61
+[15-May-2017 18:29:57 America/Chicago] PHP Notice:  Undefined offset: 167 in /home4/discoun7/public_html/TableCreate.php on line 64
+[15-May-2017 18:29:57 America/Chicago] PHP Notice:  Undefined offset: 168 in /home4/discoun7/public_html/TableCreate.php on line 67
+[15-May-2017 18:29:57 America/Chicago] PHP Notice:  Undefined offset: 169 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 18:30:54 America/Chicago] PHP Notice:  Undefined offset: 166 in /home4/discoun7/public_html/TableCreate.php on line 61
+[15-May-2017 18:30:54 America/Chicago] PHP Notice:  Undefined offset: 167 in /home4/discoun7/public_html/TableCreate.php on line 64
+[15-May-2017 18:30:54 America/Chicago] PHP Notice:  Undefined offset: 168 in /home4/discoun7/public_html/TableCreate.php on line 67
+[15-May-2017 18:30:54 America/Chicago] PHP Notice:  Undefined offset: 169 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 18:30:54 America/Chicago] PHP Notice:  Undefined offset: 166 in /home4/discoun7/public_html/TableCreate.php on line 61
+[15-May-2017 18:30:54 America/Chicago] PHP Notice:  Undefined offset: 167 in /home4/discoun7/public_html/TableCreate.php on line 64
+[15-May-2017 18:30:54 America/Chicago] PHP Notice:  Undefined offset: 168 in /home4/discoun7/public_html/TableCreate.php on line 67
+[15-May-2017 18:30:54 America/Chicago] PHP Notice:  Undefined offset: 169 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 18:30:55 America/Chicago] PHP Notice:  Undefined offset: 166 in /home4/discoun7/public_html/TableCreate.php on line 61
+[15-May-2017 18:30:55 America/Chicago] PHP Notice:  Undefined offset: 167 in /home4/discoun7/public_html/TableCreate.php on line 64
+[15-May-2017 18:30:55 America/Chicago] PHP Notice:  Undefined offset: 168 in /home4/discoun7/public_html/TableCreate.php on line 67
+[15-May-2017 18:30:55 America/Chicago] PHP Notice:  Undefined offset: 169 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 18:30:56 America/Chicago] PHP Notice:  Undefined offset: 166 in /home4/discoun7/public_html/TableCreate.php on line 61
+[15-May-2017 18:30:56 America/Chicago] PHP Notice:  Undefined offset: 167 in /home4/discoun7/public_html/TableCreate.php on line 64
+[15-May-2017 18:30:56 America/Chicago] PHP Notice:  Undefined offset: 168 in /home4/discoun7/public_html/TableCreate.php on line 67
+[15-May-2017 18:30:56 America/Chicago] PHP Notice:  Undefined offset: 169 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 18:30:56 America/Chicago] PHP Notice:  Undefined offset: 166 in /home4/discoun7/public_html/TableCreate.php on line 61
+[15-May-2017 18:30:56 America/Chicago] PHP Notice:  Undefined offset: 167 in /home4/discoun7/public_html/TableCreate.php on line 64
+[15-May-2017 18:30:56 America/Chicago] PHP Notice:  Undefined offset: 168 in /home4/discoun7/public_html/TableCreate.php on line 67
+[15-May-2017 18:30:56 America/Chicago] PHP Notice:  Undefined offset: 169 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 18:30:57 America/Chicago] PHP Notice:  Undefined offset: 166 in /home4/discoun7/public_html/TableCreate.php on line 61
+[15-May-2017 18:30:57 America/Chicago] PHP Notice:  Undefined offset: 167 in /home4/discoun7/public_html/TableCreate.php on line 64
+[15-May-2017 18:30:57 America/Chicago] PHP Notice:  Undefined offset: 168 in /home4/discoun7/public_html/TableCreate.php on line 67
+[15-May-2017 18:30:57 America/Chicago] PHP Notice:  Undefined offset: 169 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 18:31:00 America/Chicago] PHP Notice:  Undefined offset: 166 in /home4/discoun7/public_html/TableCreate.php on line 61
+[15-May-2017 18:31:00 America/Chicago] PHP Notice:  Undefined offset: 167 in /home4/discoun7/public_html/TableCreate.php on line 64
+[15-May-2017 18:31:00 America/Chicago] PHP Notice:  Undefined offset: 168 in /home4/discoun7/public_html/TableCreate.php on line 67
+[15-May-2017 18:31:00 America/Chicago] PHP Notice:  Undefined offset: 169 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 18:31:01 America/Chicago] PHP Notice:  Undefined offset: 166 in /home4/discoun7/public_html/TableCreate.php on line 61
+[15-May-2017 18:31:01 America/Chicago] PHP Notice:  Undefined offset: 167 in /home4/discoun7/public_html/TableCreate.php on line 64
+[15-May-2017 18:31:01 America/Chicago] PHP Notice:  Undefined offset: 168 in /home4/discoun7/public_html/TableCreate.php on line 67
+[15-May-2017 18:31:01 America/Chicago] PHP Notice:  Undefined offset: 169 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 18:31:09 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/discoun7/public_html/relay.php:31) in /home4/discoun7/public_html/relay.php on line 32
+[15-May-2017 18:31:37 America/Chicago] PHP Notice:  Undefined offset: 209 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 18:31:37 America/Chicago] PHP Notice:  Undefined offset: 209 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 18:31:38 America/Chicago] PHP Notice:  Undefined offset: 209 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 19:01:22 America/Chicago] PHP Notice:  Undefined offset: 79 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 19:01:22 America/Chicago] PHP Notice:  Undefined offset: 92 in /home4/discoun7/public_html/TableCreate.php on line 48
+[15-May-2017 19:01:22 America/Chicago] PHP Notice:  Undefined offset: 93 in /home4/discoun7/public_html/TableCreate.php on line 51
+[15-May-2017 19:01:22 America/Chicago] PHP Notice:  Undefined offset: 94 in /home4/discoun7/public_html/TableCreate.php on line 54
+[15-May-2017 19:01:22 America/Chicago] PHP Notice:  Undefined offset: 95 in /home4/discoun7/public_html/TableCreate.php on line 58
+[15-May-2017 19:01:22 America/Chicago] PHP Notice:  Undefined offset: 96 in /home4/discoun7/public_html/TableCreate.php on line 61
+[15-May-2017 19:01:22 America/Chicago] PHP Notice:  Undefined offset: 97 in /home4/discoun7/public_html/TableCreate.php on line 64
+[15-May-2017 19:01:22 America/Chicago] PHP Notice:  Undefined offset: 98 in /home4/discoun7/public_html/TableCreate.php on line 67
+[15-May-2017 19:01:22 America/Chicago] PHP Notice:  Undefined offset: 99 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 19:02:06 America/Chicago] PHP Notice:  Undefined offset: 118 in /home4/discoun7/public_html/TableCreate.php on line 67
+[15-May-2017 19:02:06 America/Chicago] PHP Notice:  Undefined offset: 119 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 19:02:09 America/Chicago] PHP Notice:  Undefined offset: 157 in /home4/discoun7/public_html/TableCreate.php on line 64
+[15-May-2017 19:02:09 America/Chicago] PHP Notice:  Undefined offset: 158 in /home4/discoun7/public_html/TableCreate.php on line 67
+[15-May-2017 19:02:09 America/Chicago] PHP Notice:  Undefined offset: 159 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 19:02:09 America/Chicago] PHP Notice:  Undefined offset: 183 in /home4/discoun7/public_html/TableCreate.php on line 51
+[15-May-2017 19:02:09 America/Chicago] PHP Notice:  Undefined offset: 184 in /home4/discoun7/public_html/TableCreate.php on line 54
+[15-May-2017 19:02:09 America/Chicago] PHP Notice:  Undefined offset: 185 in /home4/discoun7/public_html/TableCreate.php on line 58
+[15-May-2017 19:02:09 America/Chicago] PHP Notice:  Undefined offset: 186 in /home4/discoun7/public_html/TableCreate.php on line 61
+[15-May-2017 19:02:09 America/Chicago] PHP Notice:  Undefined offset: 187 in /home4/discoun7/public_html/TableCreate.php on line 64
+[15-May-2017 19:02:09 America/Chicago] PHP Notice:  Undefined offset: 188 in /home4/discoun7/public_html/TableCreate.php on line 67
+[15-May-2017 19:02:09 America/Chicago] PHP Notice:  Undefined offset: 189 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 19:02:10 America/Chicago] PHP Notice:  Undefined offset: 196 in /home4/discoun7/public_html/TableCreate.php on line 61
+[15-May-2017 19:02:10 America/Chicago] PHP Notice:  Undefined offset: 197 in /home4/discoun7/public_html/TableCreate.php on line 64
+[15-May-2017 19:02:10 America/Chicago] PHP Notice:  Undefined offset: 198 in /home4/discoun7/public_html/TableCreate.php on line 67
+[15-May-2017 19:02:10 America/Chicago] PHP Notice:  Undefined offset: 199 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 19:02:10 America/Chicago] PHP Notice:  Undefined offset: 209 in /home4/discoun7/public_html/TableCreate.php on line 70
+[15-May-2017 19:02:11 America/Chicago] PHP Notice:  Undefined offset: 222 in /home4/discoun7/public_html/TableCreate.php on line 48
+[15-May-2017 19:02:11 America/Chicago] PHP Notice:  Undefined offset: 223 in /home4/discoun7/public_html/TableCreate.php on line 51
+[15-May-2017 19:02:11 America/Chicago] PHP Notice:  Undefined offset: 224 in /home4/discoun7/public_html/TableCreate.php on line 54
+[15-May-2017 19:02:11 America/Chicago] PHP Notice:  Undefined offset: 225 in /home4/discoun7/public_html/TableCreate.php on line 58
+[15-May-2017 19:02:11 America/Chicago] PHP Notice:  Undefined offset: 226 in /home4/discoun7/public_html/TableCreate.php on line 61
+[15-May-2017 19:02:11 America/Chicago] PHP Notice:  Undefined offset: 227 in /home4/discoun7/public_html/TableCreate.php on line 64
+[15-May-2017 19:02:11 America/Chicago] PHP Notice:  Undefined offset: 228 in /home4/discoun7/public_html/TableCreate.php on line 67
+[15-May-2017 19:02:11 America/Chicago] PHP Notice:  Undefined offset: 229 in /home4/discoun7/public_html/TableCreate.php on line 70
+[18-May-2017 00:56:19 America/Chicago] PHP Parse error:  syntax error, unexpected 'color' (T_STRING), expecting ',' or ';' in /home4/discoun7/public_html/index.php on line 410
+[18-May-2017 00:56:58 America/Chicago] PHP Parse error:  syntax error, unexpected '\' (T_NS_SEPARATOR), expecting ',' or ';' in /home4/discoun7/public_html/index.php on line 410
+[18-May-2017 01:00:02 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home4/discoun7/public_html/index.php on line 410

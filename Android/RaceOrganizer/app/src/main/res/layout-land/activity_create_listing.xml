@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context=".CreateListing"
+    android:background="#7C83AE">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I Need a Crew"
+            android:id="@+id/crew"
+            android:height="90dp"
+            android:layout_alignParentStart="false"
+            android:layout_marginTop="1dp"
+            android:textSize="24dp"
+            android:textColor="#101849"
+            android:background="#D3A56B"
+            android:textAlignment="inherit"
+            android:textColorHighlight="#ffdcdc"
+            android:longClickable="false"
+            android:nestedScrollingEnabled="false"
+            android:visibility="visible" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I Want a Boat"
+            android:id="@+id/boatType"
+            android:height="90dp"
+            android:layout_below="@+id/crew"
+            android:layout_alignParentStart="false"
+            android:textSize="24dp"
+            android:textColor="#101849"
+            android:background="#D3A56B"
+            android:textAlignment="inherit"
+            android:longClickable="false"
+            android:nestedScrollingEnabled="false"
+            android:visibility="visible"
+            android:layout_marginTop="3dp" />
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="LARGE_BANNER"
+            ads:adUnitId="@string/homeBottom">
+        </com.google.android.gms.ads.AdView>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+* {	margin: 0px; padding: 0px; background-color: transparent; }
+a:link, a:visited, a:active { text-decoration:none; color:#003876; }
+a:hover { text-decoration:none; color:#2981da; }
+a#nochange:hover { color:#003876; }
+img { border: none; }
+#container {
+	color:#003876;
+	width:148px;
+	border:1px solid #BFBFBF;
+	background: #ffffff url('/weatherbuttons/150x90/swirl.gif') no-repeat;
+	padding: 0px 0px 1px;
+}
+#left_col { float:left; width:63px; padding: 0px 2px 0px 2px; }
+#right_col { float:left; padding:5px 0px 0px; width: 78px; }
+#middle_row { clear:both; height: 45px; padding: 0px 0px 0px 2px; }
+	#middle_row #location { font: bold 14px "Century Gothic", Arial, Helvetica, sans-serif; line-height: 14px; }
+	#icon { float: left; width: 45px; height: 30px; }
+		#icon img { height: 30px; }
+	#temp { float: left; width: auto; padding: 5px 1px; font:20px "Century Gothic", Arial, Helvetica, sans-serif; }
+		#temp sup { font-size: 14px; }
+	#cond { float: right; width:52px; font:10px Arial, Helvetica, sans-serif; padding:3px 0px 0px; }
+
+#bottom_row {
+	clear: both; padding: 0px 0px 0px 2px;
+}
+	input.button, select.button {
+		border: #6c6c6c 1px solid;
+		font-size: 10px;
+		font-family: arial, verdana, helvetica, sans-serif;
+		vertical-align: middle;
+		letter-spacing: 1px;
+	}
+	input.button { width: 85px; padding: 0px 0px 2px 2px; }
+	select.button { width: 140px; }
+	input.searchButton {
+		background: transparent url('/weatherbuttons/150x90/search_en.gif') no-repeat;
+		width: 50px; height: 16px;
+		padding: 1px;
+		border: none;
+		vertical-align: middle;
+	}
+	input.searchButton_fr {
+		background: transparent url('/weatherbuttons/150x90/search_fr.gif') no-repeat;
+		width: 50px; height: 16px;
+		padding: 1px;
+		border: none;
+		vertical-align: middle;
+	}

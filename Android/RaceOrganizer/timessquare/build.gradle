@@ -1,0 +1,54 @@
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.0'
+    }
+}
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+}
+ext {
+
+    minSdkVersion = 8
+    targetSdkVersion = 23
+    compileSdkVersion = 19
+    buildToolsVersion = "19.0.1"
+    sourceCompatibilityVersion = JavaVersion.VERSION_1_7
+    targetCompatibilityVersion = JavaVersion.VERSION_1_7
+}
+ext.deps = [
+        // Test dependencies
+
+        junit              : 'junit:junit:4.10',
+        festandroid        : 'com.squareup:fest-android:1.0.7',
+        robolectric        : 'org.robolectric:robolectric:2.2',
+        intellijannotations: 'com.intellij:annotations:12.0'
+]
+android {
+    compileSdkVersion = 19
+    buildToolsVersion = "19.0.1"
+    compileSdkVersion 23
+    buildToolsVersion '24.0.0 rc4'
+    defaultConfig {
+        applicationId 'com.timeout.timesquare'
+        versionCode 1
+        versionName '1.0'
+        minSdkVersion 17
+        targetSdkVersion 23
+    }
+    productFlavors {
+    }
+}
+dependencies {
+}
+

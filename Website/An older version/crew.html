@@ -1,0 +1,347 @@
+<html>
+<head>
+<title>Crew Create</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript"  src="scripts/listingscripts.js"></script>
+<script type="text/javascript" src="Scripts/Calendar-PCYC.js"></script>
+
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<base href="http://www.pcyc.qc.ca" />
+
+
+<link rel="stylesheet" type="text/css" href="http://70.83.102.219:9002/css/listing.css">
+<link rel="stylesheet" type="text/css" href="css/gallery.css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+
+
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/jquery.gallery.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {	 
+$('#nav li').hover(
+function () {
+//show its submenu
+$('ul', this).slideDown(100);
+},
+function () {
+//hide its submenu
+$('ul', this).slideUp(100);        
+}
+);
+});
+
+$(function() {
+var galleries = $('.gal-gallery').Gallery();
+}); 
+</script>
+<script type="text/javascript">
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-30642875-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+</head>
+<body onload="randomNumber();run()">
+<div id="bg">
+<div id="container">
+<div id="header">
+<div id="header_language">
+<a href="http://www.pcyc.qc.ca"><img src="images/spacer.gif" width="600" height="130" border="0" align="left"></a>
+<iframe marginheight="0" marginwidth="0" name="iframe1" id="iframe1" width="150" height="90" src="http://btn.meteomedia.ca/weatherbuttons/template5.php?placeCode=CAQC0419&amp;cityNameNeeded=0&amp;category0=Cities&amp;celsiusF=C" frameborder="0" scrolling="no" align="left"></iframe>
+
+<a href="https://www.facebook.com/#!/groups/2231061177/" target="blank"><img src="images/facebook.png" width="30" height="30" border="0" align="left" hspace="2"></a>
+<a href="http://twitter.com/#!/PointeClaireYC" target="blank"><img src="images/twitter.png" width="30" height="30" border="0" align="left"  hspace="2"></a>
+<ul id="headernav">
+<li><span class="menu_item"><a href="http://www.pcyc.qc.ca/index.html">Home</a>&nbsp;&nbsp;</span></li><li><span class="menu_item"><a href="http://www.pcyc.qc.ca/indexfr.html">Français</a>&nbsp;&nbsp;</span></li>				</ul>
+</div>
+</div>
+<!-- header ends -->
+<div id="menubar">
+<div style="float:right;">
+<ul id="nav">
+<li><a href="#" onclick="return false;">About Us</a>
+<ul class="sub_menu">
+<li><a href="http://www.pcyc.qc.ca/welcome.html">Welcome</a>
+<li><a href="http://www.pcyc.qc.ca/clubhistory.html">Club History</a>
+<li><a href="http://www.pcyc.qc.ca/memberships.html">Memberships</a>
+<li><a href="http://www.pcyc.qc.ca/visitors.html">Visitors</a>
+<li><a href="http://www.pcyc.qc.ca/flag_officers.html">Flag Officers</a>
+</ul>
+</li><li><a href="#" onclick="return false;">Club House</a>
+<ul class="sub_menu">
+<li><a href="http://www.pcyc.qc.ca/services.html">Services</a>
+<li><a href="http://www.pcyc.qc.ca/bar_galley.html">Bar / Galley </a>
+</ul>
+</li><li><a href="#" onclick="return false;">Sailing Lessons</a>
+<ul class="sub_menu">
+<li><a href="http://www.pcyc.qc.ca/adult_sailing_school.html">Adult Lessons</a>
+<li><a href="http://www.pcyc.qc.ca/junior_sailing_school.html">Junior Lessons</a>
+<li><a href="http://www.pcyc.qc.ca/pcyc junior race teams.html">Jr Race Teams</a>
+<li><a href="http://www.pcyc.qc.ca/sailing lessons_aqvaqc.html">AQVA</a>
+</ul>
+</li><li><a href="http://www.pcyc.qc.ca/pcyc_harbour.html">Harbour</a>
+</li><li><a href="#" onclick="return false;">Regattas</a>
+<ul class="sub_menu">
+<li><a href="http://www.pcyc.qc.ca/regattas_racing_pcyc.html">TGIF Racing</a>
+<li><a href="http://www.pcyc.qc.ca/2.4m_canadian_championships.html">Etchells QC </a>
+<li><a href="http://www.pcyc.qc.ca/2.4_regatta.html">2.4mR</a>
+<li><a href="http://www.pcyc.qc.ca/try_regatta.html">Try Regatta</a>
+<li><a href="http://www.pcyc.qc.ca/pcyc_maud_cup.html">Maud Cup</a>
+<li><a href="http://www.pcyc.qc.ca/etchells_quebec_championship.html">J24</a>
+<li><a href="http://www.pcyc.qc.ca/Canadian_fireball.html">Quebec Fireball </a>
+<li><a href="http://www.pcyc.qc.ca/hyc_annual_regatta.html">Club Championship</a>
+<li><a href="http://www.pcyc.qc.ca/mirage1_cup.html">Mirage Cup</a>
+<li><a href="http://www.pcyc.qc.ca/rum_race.html">Rum  Race</a>
+<li><a href="http://www.pcyc.qc.ca/pas_de_deux.html">Pas De Deux</a>
+</ul>
+</li><li><a href="http://www.pcyc.qc.ca/page/viewgallery">Photo Gallery</a>
+</li><li><a href="#" onclick="return false;">Calendar</a>
+<ul class="sub_menu">
+<li><a href="http://www.pcyc.qc.ca/pcyc_event_calendar.html">Club Calendar</a>
+</ul>
+</li><li><a href="#" onclick="return false;">Contact Us</a>
+<ul class="sub_menu">
+<li><a href="http://www.pcyc.qc.ca/page/contact">Contact Us</a>
+</li></ul>
+</li></ul>
+</div>
+</div>
+<!-- menubar ends -->
+<div id="main_content">
+<div id="grey_curve">
+<div id="main_content_right">
+
+<table border="0" cellspacing="0" cellpadding="0" align="center" >
+	<tr>
+		<td>
+			<span>
+				<div id="listingMakers">
+					<a href = "http://70.83.102.219:9002/crew.html">Create a Crew Listing</a>
+					&nbsp; &nbsp;
+					<a href = "http://70.83.102.219:9002/boat.html">Create a Boat Listing</a>
+									<br />
+					<a href = "http://70.83.102.219:9002/">Back</a>
+					<br /><br />
+				</div>
+			</span>
+		</td>
+	</tr>
+	<tr>
+		<td >
+			<form name="data" id="data" action="http://70.83.102.219:9002/relay.php" method="post">
+				<fieldset>
+				<legend>Required Info: </legend>
+				<label>Yacht Club Initials: </label>
+				<select name="club" id="club" onchange="dropdownVisibility(this.value, this)">
+					<option value="PCYC">PCYC</option>
+					<option value="BYC">BYC</option>
+					<option value="RStLYC">RStLYC</option>
+					<option value="LRYC">LRYC</option>
+					<option value="BDYC">BDYC</option>
+					<option value="Other">Other</option>
+				</select>
+				<input id="clubOther" style="display:none">
+				
+				<br /><br />
+				
+				<label>Crew Type:</label>
+				<select name="crew" id="crew" onchange="dropdownVisibility(this.value, this)">
+					<option value="Skipper">Crew</option>
+					<option value="Crew">Skipper</option>
+					<option value="Foredeck">Foredeck</option>
+					<option value="Other">Other</option>
+				</select>
+				<input id="crewOther" style="display:none">
+				
+				<br /><br />
+				
+				<label>Boat:</label> <input type="text" name="boat" id="boat" required/>
+				<br /><br />
+				<label>Boat Name/Number: </label><input type="text" name="boatName" id="boatName" value="" required/>
+				</fieldset >
+				<br />			
+							
+				<fieldset>
+						<legend>Deadline:</legend> 
+						<p>Click on the dates you want selected</p>
+						<canvas style="border:1px solid #000000;" id="deadline">
+							Deadline: 
+							<!--<select id="deadlineAlt">
+								<option value="5:00:00">5:00 AM</option>
+								<option value="5:15:00">5:15 AM</option>
+								<option value="5:30:00">5:30 AM</option>
+								<option value="5:45:00">5:45 AM</option>
+							 
+								<option value="6:00:00">6:00 AM</option>
+								<option value="6:15:00">6:15 AM</option>
+								<option value="6:30:00">6:30 AM</option>
+								<option value="6:45:00">6:45 AM</option>
+							 
+								<option value="7:00:00">7:00 AM</option>
+								<option value="7:15:00">7:15 AM</option>
+								<option value="7:30:00">7:30 AM</option>
+								<option value="7:45:00">7:45 AM</option>
+							 
+								<option value="8:00:00">8:00 AM</option>
+								<option value="8:15:00">8:15 AM</option>
+								<option value="8:30:00">8:30 AM</option>
+								<option value="8:45:00">8:45 AM</option>
+							 
+								<option value="9:00:00">9:00 AM</option>
+								<option value="9:15:00">9:15 AM</option>
+								<option value="9:30:00">9:30 AM</option>
+								<option value="9:45:00">9:45 AM</option>
+							 
+								<option value="10:00:00">10:00 AM</option>
+								<option value="10:15:00">10:15 AM</option>
+								<option value="10:30:00">10:30 AM</option>
+								<option value="10:45:00">10:45 AM</option>
+							 
+								<option value="11:00:00">11:00 AM</option>
+								<option value="11:15:00">11:15 AM</option>
+								<option value="11:30:00">11:30 AM</option>
+								<option value="11:45:00">11:45 AM</option>
+							 
+								<option value="12:00:00">12:00 PM</option>
+								<option value="12:15:00">12:15 PM</option>
+								<option value="12:30:00">12:30 PM</option>
+								<option value="12:45:00">12:45 PM</option>
+							 
+								<option value="13:00:00">13:00 PM</option>
+								<option value="13:15:00">13:15 PM</option>
+								<option value="13:30:00">13:30 PM</option>
+								<option value="13:45:00">13:45 PM</option>
+							 
+								<option value="14:00:00">14:00 PM</option>
+								<option value="14:15:00">14:15 PM</option>
+								<option value="14:30:00">14:30 PM</option>
+								<option value="14:45:00">14:45 PM</option>
+							 
+								<option value="15:00:00">15:00 PM</option>
+								<option value="15:15:00">15:15 PM</option>
+								<option value="15:30:00">15:30 PM</option>
+								<option value="15:45:00">15:45 PM</option>
+							 
+								<option value="16:00:00">16:00 PM</option>
+								<option value="16:15:00">16:15 PM</option>
+								<option value="16:30:00">16:30 PM</option>
+								<option value="16:45:00">16:45 PM</option>
+							 
+								<option value="17:00:00">17:00 PM</option>
+								<option value="17:15:00">17:15 PM</option>
+								<option value="17:30:00">17:30 PM</option>
+								<option value="17:45:00">17:45 PM</option>
+							 
+								<option value="18:00:00">18:00 PM</option>
+								<option value="18:15:00">18:15 PM</option>
+								<option value="18:30:00">18:30 PM</option>
+								<option value="18:45:00">18:45 PM</option>
+							 
+								<option value="19:00:00">19:00 PM</option>
+								<option value="19:15:00">19:15 PM</option>
+								<option value="19:30:00">19:30 PM</option>
+								<option value="19:45:00">19:45 PM</option>
+							 
+								<option value="20:00:00">20:00 PM</option>
+								<option value="20:15:00">20:15</option>
+								<option value="20:30:00">20:30 PM</option>
+								<option value="20:45:00">20:45 PM</option>
+							 
+								<option value="21:00:00">21:00 PM</option>
+								<option value="21:15:00">21:15 PM</option>
+								<option value="21:30:00">21:30 PM</option>
+								<option value="21:45:00">21:45 PM</option>
+							 
+								<option value="22:00:00">22:00 PM</option>
+								<option value="22:15:00">22:15 PM</option>
+								<option value="22:30:00">22:30 PM</option>
+								<option value="22:45:00">22:45 PM</option>
+							 
+								<option value="23:00:00">23:00 PM</option>
+								<option value="23:15:00">23:15 PM</option>
+								<option value="23:30:00">23:30 PM</option>
+								<option value="23:45:00">23:45 PM</option>
+							</select>	-->										
+						</canvas><br>	<br>	
+						<input type="text" id="deadlineTemp" style="background-color:rgb(240,240,240)"	readonly><br>	
+						<input type="text" name ="deadline" id ="deadlineInput" style="width:400; background-color:rgb(200,200,200)" value="" readonly><br>
+				</fieldset>
+				<br /><br />
+				<fieldset>
+					<legend>Specific Info:</legend>
+						<textarea placeholder="Qualifications, Whitesail, etc.    	 	  Leave blank if nothing to say" 
+						rows="5" cols="50" name="specific" id="specific"></textarea>
+				</fieldset>
+				
+								<br />	
+				<fieldset>
+				<legend>Contact Info: </legend>
+				<p class="small">Not everything needs to be filled</p>
+				<label>Name: </label><input type="text" name="name" id="name"><br><br />
+				<label>Phone: </label><input type="text" name="phone" id="phone" value=""><br /><br />
+				<label>Email: </label><input type="text" name="mail" id="mail" value=""><br /><br />
+				</fieldset>		
+				<br>
+
+				<input type="hidden" name="ID" value="0" id="ID"/>
+				<input type="hidden" name="type" value="1" id="type"/>
+				<input type="hidden" name="delete" value="0" id ="delete"/>
+				<input type="hidden" name="listing" value="0" id="listing"/>	
+
+				<button type="button" value="Submit" onClick="trimThings();">Submit</button>
+				<button type="button" value="Reset" onClick="reset();">Reset</button>			
+			</form>
+		</td>
+	<!--form ends -->
+		<td rowspan="1">
+			<a href="https://www.dropbox.com/s/7fv9fbc7zj9lw9f/Montreal%20Race%20Organizer.apk?dl=0">							
+			<img src="http://70.83.102.219:9002/images/Android_robot.png" width="90"  border="0" align="left" hspace="40"/>
+			<p>Check out the Android app</p>
+		</a>
+		</td>
+	</tr>
+	<tr>
+		<td id="tdException">
+			<div>
+				<br /><br />
+			</div>
+		</td>
+	</tr>
+		<!--Listings End-->
+</table>
+<br /><br />
+
+</div>
+
+<div id="footer">
+<ul id="menu2">
+
+</ul>
+</div>
+</div>
+<!-- grey curve ends -->
+</div>
+<!-- main_content ends -->
+</div>
+<!-- container ends -->
+</div>
+<!-- bg ends -->
+<div id="bottom">
+</div>	
+<div id="bg">
+<div id = "container">
+
+</div>
+</div>
+</body>
+</html>
+

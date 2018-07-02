@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".CreateListing"
+    android:background="#7C83AE">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I Need a Crew"
+            android:id="@+id/crew"
+            android:height="90dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentStart="false"
+            android:layout_marginTop="40dp"
+            android:textSize="24dp"
+            android:textColor="#101849"
+            android:background="#D3A56B"
+            android:textAlignment="inherit"
+            android:textColorHighlight="#ffdcdc"
+            android:layout_marginBottom="5dp"
+            android:longClickable="false"
+            android:nestedScrollingEnabled="false"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Select an Option :"
+            android:id="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="15dp"
+            android:textColor="#ffffff"
+            android:typeface="sans"
+            android:visibility="visible"
+            android:textSize="30dp"
+            android:layout_marginTop="5dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I Want a Boat"
+            android:id="@+id/boatType"
+            android:height="90dp"
+            android:layout_below="@+id/crew"
+            android:layout_alignParentStart="false"
+            android:textSize="24dp"
+            android:textColor="#101849"
+            android:background="#D3A56B"
+            android:textAlignment="inherit"
+            android:textColorHighlight="#ffdcdc"
+            android:longClickable="false"
+            android:nestedScrollingEnabled="false"
+            android:visibility="visible" />
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="LARGE_BANNER"
+            ads:adUnitId="@string/homeBottom">
+        </com.google.android.gms.ads.AdView>
+</RelativeLayout>

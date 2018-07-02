@@ -1,0 +1,172 @@
+.gal-gallery {
+  width: 600px;
+}
+.gal-gallery, .gal-gallery * {
+  margin: 0;
+  padding: 0;
+}
+  .gal-gallery .gal-image-wrapper {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+    .gal-gallery .gal-image-wrapper .gal-loader {
+      position: absolute;
+      z-index: 10;
+      top: 48%;
+      left: 48%;
+      border: 1px solid #CCC;
+    }
+    .gal-gallery .gal-image-wrapper .gal-next {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 25%;
+      height: 100%;
+      cursor: pointer;
+      display: block;
+      z-index: 100;
+    }
+    .gal-gallery .gal-image-wrapper .gal-prev {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 25%;
+      height: 100%;
+      cursor: pointer;
+      display: block;
+      z-index: 100;
+    }
+    .gal-gallery .gal-image-wrapper .gal-prev, .gal-gallery .gal-image-wrapper .gal-next {
+      /* Or else IE will hide it */
+      background: url(../images/non-existing.jpg);
+    }
+      .gal-gallery .gal-image-wrapper .gal-prev .gal-prev-image, .gal-gallery .gal-image-wrapper .gal-next .gal-next-image {
+        background: url(../images/gal_prev.png);
+        width: 30px;
+        height: 30px;
+        display: none;
+        position: absolute;
+        top: 47%;
+        left: 0;
+        z-index: 101;
+      }
+      .gal-gallery .gal-image-wrapper .gal-next .gal-next-image {
+        background: url(../images/gal_next.png);
+        width: 30px;
+        height: 30px;
+        right: 0;
+        left: auto;
+      }
+    .gal-gallery .gal-image-wrapper .gal-image {
+      position: absolute;
+      overflow: hidden;
+      top: 0;
+      left: 0;
+      z-index: 9;
+    }
+      .gal-gallery .gal-image-wrapper .gal-image a img {
+        border: 0;
+      }
+      .gal-gallery .gal-image-wrapper .gal-image .gal-image-description {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        padding: 7px;
+        text-align: left;
+        width: 100%;
+        z-index: 2;
+        /*background: url(../images/opa75.png);*/
+        background: url(../images/newopa75.png);
+        background-repeat: repeat-x;
+        color: #000;
+        font-weight:bold;
+      }
+      * html .gal-gallery .gal-image-wrapper .gal-image .gal-image-description {
+        /*background: none;*/
+        /*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader (enabled=true, sizingMethod=scale, src='opa75.png');*/
+      }
+        .gal-gallery .gal-image-wrapper .gal-image .gal-image-description .gal-description-title {
+          display: block;
+        }
+  .gal-gallery .gal-controls {
+    height: 20px;
+  }
+    .gal-gallery .gal-info {
+      float: left;
+    }
+    .gal-gallery .gal-slideshow-controls {
+      float: right;
+    }
+      .gal-gallery .gal-slideshow-controls .gal-slideshow-start, .gal-gallery .gal-slideshow-controls .gal-slideshow-stop {
+        padding-left: 5px;
+        cursor: pointer;
+      }
+      .gal-gallery .gal-slideshow-controls .gal-slideshow-countdown {
+        padding-left: 5px;
+        font-size: 0.9em;
+      }
+    .gal-gallery .gal-slideshow-running .gal-slideshow-start {
+      cursor: default;
+      font-style: italic;
+    }
+  .gal-gallery .gal-nav {
+    width: 100%;
+    position: relative;
+  }
+    .gal-gallery .gal-forward, .gal-gallery .gal-back {
+      position: absolute;
+      top: 0;
+      height: 100%;
+      z-index: 10;
+    }
+    /* IE 6 doesn't like height: 100% */
+    * html .gal-gallery .gal-forward, .gal-gallery .gal-back {
+      height: 100px;
+    }
+    .gal-gallery .gal-back {
+      cursor: pointer;
+      left: -20px;
+      width: 13px;
+      display: block;
+      background: url(../images/gal_scroll_back.png) 0px 22px no-repeat;
+    }
+    .gal-gallery .gal-forward {
+      cursor: pointer;
+      display: block;
+      right: -20px;
+      width: 13px;
+      background: url(../images/gal_scroll_forward.png) 0px 22px no-repeat;
+    }
+    .gal-gallery .gal-nav .gal-thumbs {
+      overflow: hidden;
+      width: 100%;
+    }
+      .gal-gallery .gal-thumbs .gal-thumb-list {
+        float: left;
+        width: 9000px;
+        list-style: none;
+      }
+        .gal-gallery .gal-thumbs li {
+          float: left;
+          list-style: none;
+          padding-right: 10px;
+        }
+          .gal-gallery .gal-thumbs li a {
+            display: block;
+          }
+            .gal-gallery .gal-thumbs li a img {
+              border: 3px solid #CCC;
+              display: block;
+            }
+            .gal-gallery .gal-thumbs li a.gal-active img {
+              border: 3px solid #616161;
+            }
+/* Can't do display none, since Opera won't load the images then */
+.gal-preloads {
+  position: absolute;
+  left: -9000px;
+  top: -9000px;
+}

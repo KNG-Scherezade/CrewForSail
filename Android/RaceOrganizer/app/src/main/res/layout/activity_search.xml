@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="com.shahzada.raceorganizer.Search"
+    android:background="#968d8d"
+    android:scrollIndicators="right">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:minWidth="360dp"
+            android:longClickable="false">
+
+            <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Search :"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentStart="true" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/table"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/back">
+
+        <TableRow
+            android:layout_width="340dp"
+            android:layout_height="match_parent"
+            android:id="@+id/tr1"
+            android:orientation="horizontal"
+            android:layout_below="@+id/textView13"
+            android:layout_alignParentStart="true">
+
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:text="Requesting"
+                android:id="@+id/type"
+                android:layout_column="0" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Boat"
+                android:id="@+id/boatType"
+                android:layout_column="1" />
+
+            <Button
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:id="@+id/listName"
+                android:layout_column="2" />
+        </TableRow>
+    </TableLayout>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/search"
+        android:width="150dp"
+        android:layout_alignTop="@+id/textView12"
+        android:layout_toEndOf="@+id/textView12" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/back"
+        android:layout_below="@+id/adView"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click on listings for more information or headings for organization."
+        android:id="@+id/textView13"
+        android:textIsSelectable="false"
+        android:textSize="10dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/search"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Use the search field to narrow results."
+        android:id="@+id/textView14"
+        android:textSize="10dp"
+        android:layout_alignTop="@+id/progressBar3"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
+
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/progressBar3"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/back"
+                android:translationZ="9dp"
+                android:layout_marginTop="30dp"
+                android:indeterminate="false"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Refresh"
+                android:id="@+id/refresh"
+                android:onClick="refresh"
+                android:layout_below="@+id/back"
+                android:layout_alignParentEnd="true" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/searchAd"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignWithParentIfMissing="false"
+                android:layout_alignParentTop="true"
+                android:layout_alignEnd="@+id/back">
+            </com.google.android.gms.ads.AdView>
+
+
+        </RelativeLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>

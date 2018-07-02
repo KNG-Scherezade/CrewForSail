@@ -1,0 +1,137 @@
+body{background: url(../bg.jpg) no-repeat center; background-color: rgb(1,1,1); 
+	padding:1em;
+}
+
+img{padding:0.25em; background-color:rgb(0,0,0);margin-bottom:1em;}
+
+.border{
+	border-style:solid;
+	;border:10px outset silver;
+}	
+.lightborder{
+	border-style:solid;
+	border:2px outset black;
+}	
+
+.makeButton{
+	width:7em;
+	height:2.5em;
+}
+	
+	
+
+#container{visibility:hidden;position:absolute;z-index:-2}
+
+#logo{
+
+}
+
+#main{
+	left:15em; z-index:1; 
+	padding:1em;
+	background-color:rgb(255,255,255);
+	margin-top:1em;
+	margin-bottom:1em;
+}
+
+button{
+	width:7em;
+	height:2.5em;
+}
+
+td{
+	text-align:center;
+	padding-bottom:0.2em; padding-top:0.2em;
+}
+	
+	
+#sidebarMobile{
+	z-index:-1; margin:1em; position:relative;
+}
+#sidebarMobile div{	
+	width:33em; height:5.1em;
+	margin-left:1em;
+	background: -webkit-linear-gradient(left, rgb(57,57,57), silver); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, rgb(57,57,57), silver); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, rgb(57,57,57), silver); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left, rgb(57,57,57), silver); /* Standard syntax */
+}
+
+#sidebarMobile div a{	
+	position:relative;
+	top:2em;
+	margin-left:1.5em;margin-right:1em;
+	padding-top:2em;padding-bottom:1.95em;padding-left:0.5em;padding-right:0.5em;
+}	
+#sidebarMobile a{
+	text-decoration:none;
+}
+.hoverClass{
+	background: -webkit-linear-gradient(rgb(243,196,143), white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(243,196,143)), white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(243,196,143)), white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(243,196,143), white); /* Standard syntax */
+	border-left:solid gray 0.75em;
+	border-right:solid gray 0.75em;
+
+		color:black;
+}
+.hoverClass:hover{
+		background:rgb(57,49,93);
+		color:white;
+}
+	
+#sidebar{
+	 position:absolute;visibility:hidden; top:20em;
+}	
+	
+#sidebar div{}
+	
+#sidebar div p{}
+
+
+#footer{
+	z-index:-1; left:5em;
+	margin-left:15em; margin-right:15em;
+	background-color:rgb(255,255,255);
+	text-align:center
+}
+
+
+
+#form{	}
+	
+form{
+	padding:1em; left:17em; 
+	margin-right: 20em; margin-top:1em;
+	background-color:white;
+
+}
+
+legend{
+	background-color:rgb(200,200,200);
+
+}
+fieldset{
+	position:relative;
+	background-color:white; margin-right:5em;
+
+}
+
+@-moz-document url-prefix() {
+    #sidebarMobile{visibility:hidden;
+			position:absolute;			
+		}
+	#main{
+		left:15em; z-index:-1; 
+		padding:1em;
+		background-color:rgb(255,255,255);
+
+		margin-top:1em;
+	}
+}
+
+}
+
+
+
